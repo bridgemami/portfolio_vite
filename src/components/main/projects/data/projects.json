@@ -1,0 +1,128 @@
+[
+    {
+      "title": "Dabbling Duck Blog",
+      "image": "images/sites/dabbling-duck-blog.jpg",
+      "alt": "The homepage for a dabbling duck blog",
+      "link": "https://bridgemami.github.io/fun-with-ducks/",
+      "description": "A basic blog site about ducks using HTML and CSS.",
+      "category": "HTML and CSS",
+      "id": 1
+    },
+    {
+      "title": "Super Nintendo Blog",
+      "image": "images/sites/super-nintendo-blog.png",
+      "alt": "The homepage for a Super Nintendo Blog",
+      "link": "https://bridgemami.github.io/super_nintendo/",
+      "description": "A basic blog site about Super Nintendo using HTML and CSS.",
+      "category": "HTML and CSS",
+      "id": 2
+    },
+    {
+      "title": "Grape Varietals Blog",
+      "image": "images/sites/grape-blog.jpg",
+      "alt": "The homepage for a grape varietals blog",
+      "link": "https://bridgemami.github.io/lets-talk-about-grapes/",
+      "description": "A responsive blog site about grape varietals using HTML and CSS.",
+      "category": "HTML and CSS",
+      "id": 3
+    },
+    {
+      "title": "Yosemite Blog",
+      "image": "./images/sites/yosemite-2.jpg",
+      "alt": "The homepage for a Yosemite blog",
+      "link": "https://bridgemami.github.io/yosemite/",
+      "description": "A responsive blog site about grape Yosemite National Park using HTML, CSS and Bootstrap.",
+      "category": "HTML, CSS and BootStrap",
+      "id": 4
+    },
+    {
+      "title": "Wine Region Blog",
+      "image": "./images/sites/region-blog.jpg",
+      "alt": "The homepage for a wine region blog",
+      "link": "https://dev-wines-of-the-south.pantheonsite.io/wines-of-the-south/",
+      "description": "A responsive blog site about southern hemisphere wine regions using WordPress.",
+      "category": "WordPress",
+      "id": 5
+    },
+    {
+      "title": "Worldness Music",
+      "image": "./images/sites/worldness.jpg",
+      "alt": "The homepage for Worldness Music",
+      "link": "https://dev-worldness-sandbox.pantheonsite.io/",
+      "description": "My final project for Santa Rosa Junior College, in a team environnement, we created a mock music lesson site with WordPress.",
+      "category": "WordPress",
+      "id": 6
+    },
+    {
+      "title": "My Favorite Cities of the World",
+      "image": "./images/sites/cities.jpg",
+      "alt": "The homepage for my favorite cities blog",
+      "link": "https://bridgemami.github.io/CS50C_JSON-GOOGLEMAPS/",
+      "description": "My favorite cities I have visited using HTML, JavaScript, JSON, and Google Maps' API.",
+      "category": "HTML, CSS, JavaScript and JSON",
+      "id": 7
+    },
+    {
+      "title": "My Portfolio 1.0",
+      "image": "./images/sites/portfolioV1.jpg",
+      "alt": "The homepage for my favorite cities blog",
+      "link": "https://bridgemami.github.io/portfolio/",
+      "description": "Version 1.0 of my portfolio. It was created with HTML, CSS, and BootStrap.",
+      "category": "HTML, CSS and BootStrap",
+      "id": 8
+    },
+    {
+      "title": "My Assignments for CS 50C",
+      "image": "./images/sites/50c.jpg",
+      "alt": "The homepage for my assignments for CS 50C",
+      "link": "https://cs50c-week17-client-side-21-michaelbridgema.srjcethanwilde.repl.co/",
+      "description": "React site for my assignments for CS 50C.",
+      "category": "HTML, CSS, JavaScript and React",
+      "id": 9
+    },
+    {
+      "title": "Sightseeing in Paris",
+      "image": "./images/sites/paris.jpg",
+      "alt": "The homepage for Sightseeing in Paris",
+      "link": "https://bridgemami.github.io/Paris_/",
+      "description": "Sightseeing site for Paris using HTML, CSS, JavaScript and OpenLayers.",
+      "category": "HTML, CSS and JavaScript",
+      "id": 10
+    },
+    {
+      "title": "Ron Swanson Eight Ball",
+      "image": "./images/sites/ron.jpg",
+      "alt": "The homepage for Ron Swanson Eight Ball",
+      "link": "https://bridgemami.github.io/eight-ball/",
+      "description": "An eight-ball-esque site using a Ron Swanson quote API to tell your future.",
+      "category": "HTML, CSS and JavaScript",
+      "id": 11
+    },
+    {
+      "title": "Star Wars Character List",
+      "image": "./images/sites/charList.jpg",
+      "alt": "The homepage for Star Wars Charter List",
+      "link": "https://module5-phi.vercel.app/",
+      "description": "Star Wars character list using Next.js and deployed on Vercel.",
+      "category": "HTML, CSS, JavaScript, React, Next.js and Vercel",
+      "id": 12
+    },
+    {
+      "title": "Todo List",
+      "image": "./images/sites/todo.jpg",
+      "alt": "The homepage for todo list site",
+      "link": "https://next-firebase-todo-lime.vercel.app/",
+      "description": "Todo site created with React, Next.js, Firebase and deployed on Vercel.",
+      "category": "HTML, CSS, JavaScript, React, Next.js, Vercel and Firebase",
+      "id": 13
+    },
+    {
+      "title": "Database",
+      "image": "./images/sites/database.jpg",
+      "alt": "Database",
+      "link": "https://week-14-headless-cms-powered-app.vercel.app/",
+      "description": "Headless CMS database",
+      "category": "PHP, WordPress and Vercel",
+      "id": 14
+    }
+  ]
