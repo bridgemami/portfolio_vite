@@ -55,7 +55,7 @@ a {
 
 .buttonColor:hover {
   /* align-self: center !important; */
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   padding: .625rem 1rem;
   vertical-align: center;
 }
