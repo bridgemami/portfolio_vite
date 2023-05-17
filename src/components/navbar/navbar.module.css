@@ -1,0 +1,33 @@
+  nav {
+   border: var(--black) 1px solid;
+  }
+  .faThreeX {
+      font-size: 3rem;
+      /* color: var(--red); */
+      color:  #A30021;
+  
+  }
+  
+  .faThreeX:hover {
+      font-size: 3.5em;
+      color: var(--white);
+    }
+  
+    .middleIcon {
+      padding: 0 1.1vw; 
+    }
+  
+    /* .faDownArrow {
+      padding-left: .25vw;
+    }
+  
+    .font {
+      font-size: 1.1rem !important;
+      color: var(--white) !important;
+    }
+  
+    .font:hover {
+      font-size: 1.2rem !important;
+      color: var(--red) !important;
+    }
+    */
