@@ -6,6 +6,6 @@
     width: 50px;
     font-size: 50px;
     color:var(--white);
-    background: var(--black);
+    background: none;
     border: var(--black);
 }

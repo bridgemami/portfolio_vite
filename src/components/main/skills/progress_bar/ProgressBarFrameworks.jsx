@@ -8,17 +8,14 @@ export default function ProgressBarFrameworks() {
     {
       language: "BootStrap 5",
       percent: "90",
-      id: 0,
     },
     {
       language: "React",
       percent: "50",
-      id: 1,
     },
     {
       language: "Next.js",
       percent: "33.33",
-      id: 2,
     },
   ]);
   return (
@@ -28,11 +25,11 @@ export default function ProgressBarFrameworks() {
     role="tabpanel"
     aria-labelledby="frameworks-tab"
     tabIndex="1">
-      {frameworks.map((framework) => {
+      {frameworks.map((framework, i) => {
         console.log(framework.percent);
         return (
           <div
-            key={framework.id}
+            key={i}
           >
             <h4>{framework.language}</h4>
 

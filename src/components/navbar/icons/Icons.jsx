@@ -11,31 +11,28 @@ export default function Icons() {
       href: "https://github.com/bridgemami",
       fontAwesome: faGithub,
       site: "GitHub Link",
-      id: 0,
     },
     {
       href: "https://www.linkedin.com/in/bridgemanmichael/",
       fontAwesome: faLinkedin,
       site: "LinkedIn Link",
-      id: 1,
     },
     {
       href: "mailto:mdbridgeman@gmail.com",
       fontAwesome: faEnvelope,
       site: "Email Link",
-      id: 2,
     },
   ]);
   return (
     <Nav className={`ms-auto-lg p-2 flex-row`}>
-      {icons.map((icon) => {
+      {icons.map((icon, i) => {
         console.log(icon.fontAwesome);
         return (
           <Nav.Link
             href={`${icon.href}`}
             target="_blank"
             rel="noreferrer"
-            key={icon.id}
+            key={i}
             aria-label={`link to ${icon.site}`}
           >
             <FontAwesomeIcon

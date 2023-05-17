@@ -4,8 +4,8 @@ import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
 import About from "./about/About";
 import Contact from "./contact/Contact";
-import s from './main.module.css'
-import BackToTopButton from "../backTotop/BackToTopButton";
+import s from "./main.module.css";
+import BackToTopButton from "../backToTop/BackToTopButton";
 
 export default function Main() {
   return (
@@ -16,6 +16,6 @@ export default function Main() {
       <About />
       <Contact />
       <BackToTopButton />
-      </main>
+    </main>
   );
 }

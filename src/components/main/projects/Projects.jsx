@@ -1,8 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+// import Col from "react-bootstrap/Col";
 import Title from "../skills/title/Title";
-import ProjectList from './ProjectList'
+import ProjectList from "./ProjectList";
 
 export default function Projects() {
   return (

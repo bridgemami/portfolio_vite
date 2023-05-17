@@ -8,12 +8,10 @@ export default function ProgressBarCommandLineTools() {
     {
       language: "Git/Github",
       percent: "66.67",
-      id: 0,
     },
     {
       language: "NPM",
       percent: "50",
-      id: 1,
     },
   ]);
   return (
@@ -23,10 +21,10 @@ export default function ProgressBarCommandLineTools() {
     role="tabpanel"
     aria-labelledby="commands-tab"
     tabIndex="3">
-      {commands.map((command) => {
+      {commands.map((command, i) => {
         return (
           <div
-            key={command.id}
+            key={i}
           >
             <h4>{command.language}</h4>
 

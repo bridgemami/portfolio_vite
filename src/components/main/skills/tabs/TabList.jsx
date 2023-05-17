@@ -15,28 +15,24 @@ export default function TabList() {
       title: "Languages",
       bar: <ProgressBarLanguages />,
       id: "languages",
-      pin: 1,
     },
 
     {
       title: "Frameworks/Libraries",
       bar: <ProgressBarFrameworks />,
       id: "frameworks",
-      pin: 2,
     },
 
     {
       title: "Applications",
       bar: <ProgressBarApplications />,
       id: "applications",
-      pin: 3,
     },
 
     {
       title: "Command Line Tools",
       bar: <ProgressBarCommandLineTools />,
       id: "commandLineTools",
-      pin: 4,
     },
   ]);
   return (
@@ -49,13 +45,13 @@ export default function TabList() {
       variant="pills"
       aria-describedby="Skills tab"
     >
-      {skills && skills.map((skill) => {
+      {skills && skills.map((skill, i) => {
         return (
           <Tab
             eventKey={skill.id}
             title={skill.title}
             tabClassName={s.white}
-            key={skill.pin}
+            key={i}
             role="tabpanel"
           >
             {skill.bar}

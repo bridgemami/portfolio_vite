@@ -7,37 +7,30 @@ export default function ProgressBarLanguages() {
     {
       language: "HTML",
       percent: "90",
-      id: 0,
     },
     {
       language: "CSS",
       percent: "90",
-      id: 1,
     },
     {
       language: "JavaScript",
       percent: "66.67",
-      id: 2,
     },
     {
       language: "JSON",
       percent: "85",
-      id: 3,
     },
     {
       language: "SASS",
       percent: "70",
-      id: 4,
     },
     {
       language: "PHP",
       percent: "20",
-      id: 5,
     },
     {
       language: "SQL",
       percent: "20",
-      id: 6,
     },
   ]);
   return (
@@ -49,10 +42,10 @@ export default function ProgressBarLanguages() {
       aria-labelledby="languages-tab"
       tabIndex="0"
     >
-      {languages.map((lang) => {
+      {languages.map((lang, i) => {
         console.log(lang.percent);
         return (
-          <div key={lang.id}>
+          <div key={i}>
             <h4>{lang.language}</h4>
             <ProgressBar animated now={lang.percent} />
           </div>

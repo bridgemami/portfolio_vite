@@ -10,37 +10,32 @@ export default function Links() {
     {
       title: "Home",
       href: "/",
-      id: 0,
     },
     {
       title: "Skills",
       href: "/#skills",
-      id: 1,
     },
     {
       title: "Projects",
       href: "/#projects",
-      id: 2,
     },
     {
       title: "About",
       href: "/#about",
-      id: 3,
     },
     {
       title: "Contact",
       href: "/#contact",
-      id: 4,
     },
   ]);
   return (
     <Nav className="me-auto">
-      {links.map((link) => {
+      {links.map((link, i) => {
         return (
           <Nav.Link
             className={`${s.font}`}
             aria-current="page"
-            key={link.id}
+            key={i}
             href={link.href}
           >
             {link.title}

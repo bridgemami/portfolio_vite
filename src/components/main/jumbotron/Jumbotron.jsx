@@ -1,7 +1,9 @@
 import bigHeadShot from "../../../assets/images/logos_and_photos/DSC06519-cropped_400px.webp";
 import smallHeadShot from "../../../assets/images/logos_and_photos/DSC06519-cropped_300px.webp";
+import { PropTypes } from "prop-types";
+
 // import s from './jumbotron.module.css'
-export default function Jumbotron(props) {
+export default function Jumbotron({ name, title }) {
   return (
     <section
       className={`d-flex flex-wrap .justify-content-center justify-content-sm-around`}
@@ -20,11 +22,15 @@ export default function Jumbotron(props) {
         />
       </picture>
       <h1 className="text-center align-self-center align-items-center">
-        {props.name}
+        {name}
         <br />
-        {props.title}
+        {title}
       </h1>
       {/* <div className="offset-md-2"></div> */}
     </section>
   );
 }
+Jumbotron.propTypes = {
+  name: PropTypes.string,
+  title: PropTypes.string,
+};
