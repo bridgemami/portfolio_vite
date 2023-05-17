@@ -1,6 +1,6 @@
 import Container from "../../../node_modules/react-bootstrap/Container";
 import Navbar from "../../../node_modules/react-bootstrap/Navbar";
-import Brand from "./brand/Brand";
+import Brand from "./brand/Brands";
 import Links from "./links/Links";
 import Icons from "./icons/Icons";
 import './override.css'

@@ -5,14 +5,15 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import s from "./projects.module.css";
+// import t from '../../../assets/images/sites/'
 
 export default function ProjectList() {
   return (
     <>
       {projectData &&
-        projectData.map((data) => {
+        projectData.map((data, i) => {
           return (
-            <Card key={data.id} className={`${s.container}`}>
+            <Card key={i} className={`${s.container}`}>
               <a href={data.link} target="_blank" rel="noreferrer">
                 <Card.Img
                   variant="bottom"
