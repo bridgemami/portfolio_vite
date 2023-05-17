@@ -1,0 +1,14 @@
+  .faDownArrow {
+    padding-left: .25vw;
+  }
+
+  .font {
+    font-size: 1.1rem !important;
+    color: var(--white) !important;
+  }
+
+  .font:hover {
+    font-size: 1.3rem !important;
+    /* color: var(--red) !important; */
+   color: #A30021 !important;
+   font-weight: bold;  }
