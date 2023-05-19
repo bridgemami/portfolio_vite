@@ -110,5 +110,13 @@
       "link": "https://week-14-headless-cms-powered-app.vercel.app/",
       "description": "Headless CMS database",
       "category": "PHP, WordPress and Vercel"
+    },
+    {
+      "title": "Pet Name Generator",
+      "image": "/sites/pet-generator.jpg",
+      "alt": "Pet Name Generator",
+      "link": "https://pet-name-generator-nu.vercel.app/",
+      "description": "Using next.js and the OpenAI's api to generate names for pet.",
+      "category": "HTML, CSS, JavaScript, React, Next.js, OpenAI and Vercel"
     }
   ]
