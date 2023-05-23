@@ -2,7 +2,7 @@ import { useState } from "react";
 import Nav from "../../../../node_modules/react-bootstrap/Nav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
-import resume from "../../../../src/assets/Resume_5_23.pdf";
+import resume from "../../../../src/assets/Michael-Bridgeman-Resume.pdf";
 import s from "./links.module.css";
 
 export default function Links() {
