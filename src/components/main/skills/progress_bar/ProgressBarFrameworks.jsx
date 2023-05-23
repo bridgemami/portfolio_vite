@@ -11,7 +11,7 @@ export default function ProgressBarFrameworks() {
     },
     {
       language: "React",
-      percent: "50",
+      percent: "66.7",
     },
     {
       language: "Next.js",
