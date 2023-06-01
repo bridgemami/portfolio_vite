@@ -3,15 +3,16 @@ export default function Details() {
     <article>
       <h2>About</h2>
       <p>
-        Welcome to my portfolio! I am Michael Bridgeman, a web developer born
-        and raised in the vibrant Bay Area. With a bachelor&apos;s degree in business
-        from Sonoma State University, I have spent over a decade honing my
-        skills in the retail, hospitality, and customer service industries,
-        always driven by my passion for delivering exceptional experiences to
-        people. It was during my involvement in launching the tablet program at
-        Black Stallion Estate Winery that I discovered my fascination with the
-        transformative power of technology in streamlining business operations
-        and enhancing efficiency.
+        Ready to embark on an exciting journey in the world of web development?
+        Look no further! I am Michael Bridgeman, a web developer born and raised
+        in the vibrant Bay Area. With a bachelor&apos;s degree in business from
+        Sonoma State University, I have spent over a decade honing my skills in
+        the retail, hospitality, and customer service industries, always driven
+        by my passion for delivering exceptional experiences to people. It was
+        during my involvement in launching the tablet program at Black Stallion
+        Estate Winery that I discovered my fascination with the transformative
+        power of technology in streamlining business operations and enhancing
+        efficiency.
       </p>
       <p>
         During the pandemic, a former manager suggested I take an HTML and CSS
