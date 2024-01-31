@@ -64,14 +64,6 @@
       "category": "HTML, CSS and BootStrap"
     },
     {
-      "title": "My Assignments for CS 50C",
-      "image": "/sites/50c.jpg",
-      "alt": "The homepage for my assignments for CS 50C",
-      "link": "https://cs50c-week17-client-side-21-michaelbridgema.srjcethanwilde.repl.co/",
-      "description": "React site for my assignments for CS 50C.",
-      "category": "HTML, CSS, JavaScript and React"
-    },
-    {
       "title": "Sightseeing in Paris",
       "image": "/sites/paris.jpg",
       "alt": "The homepage for Sightseeing in Paris",
