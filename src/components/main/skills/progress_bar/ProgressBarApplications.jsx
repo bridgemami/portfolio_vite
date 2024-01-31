@@ -18,7 +18,6 @@ export default function ProgressBarApplications() {
       tabIndex="2"
     >
       {applications.map((application) => {
-        console.log(application.percent);
         return (
           <div key={application.id}>
             <h4>{application.title}</h4>

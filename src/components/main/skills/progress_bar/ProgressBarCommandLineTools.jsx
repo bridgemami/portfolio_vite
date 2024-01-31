@@ -1,3 +1,4 @@
+import { nanoid } from "nanoid";
 import { useState } from "react";
 import ProgressBar from "react-bootstrap/esm/ProgressBar";
 // import s from '../progressbarwidth.module.css'
@@ -21,10 +22,10 @@ export default function ProgressBarCommandLineTools() {
     role="tabpanel"
     aria-labelledby="commands-tab"
     tabIndex="3">
-      {commands.map((command, i) => {
+      {commands.map((command) => {
         return (
           <div
-            key={i}
+            key={nanoid()}
           >
             <h4>{command.language}</h4>
 

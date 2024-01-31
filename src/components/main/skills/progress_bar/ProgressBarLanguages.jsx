@@ -1,3 +1,4 @@
+import { nanoid } from "nanoid";
 import { useState } from "react";
 import ProgressBar from "react-bootstrap/esm/ProgressBar";
 // import s from '../progressbarwidth.module.css'
@@ -42,10 +43,9 @@ export default function ProgressBarLanguages() {
       aria-labelledby="languages-tab"
       tabIndex="0"
     >
-      {languages.map((lang, i) => {
-        console.log(lang.percent);
+      {languages.map((lang) => {
         return (
-          <div key={i}>
+          <div key={nanoid()}>
             <h4>{lang.language}</h4>
             <ProgressBar animated now={lang.percent} />
           </div>

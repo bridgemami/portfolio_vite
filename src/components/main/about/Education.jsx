@@ -1,3 +1,4 @@
+import { nanoid } from "nanoid";
 import  { useState } from "react";
 
 export default function Education() {
@@ -20,9 +21,9 @@ export default function Education() {
       <h2>Education</h2>
       <ul>
         {schools &&
-          schools.map((school, i) => {
+          schools.map((school) => {
             return (
-              <li key={i}>
+              <li key={nanoid()}>
                 <p>
                   {school.degree} {school.specialty}
                   <br />

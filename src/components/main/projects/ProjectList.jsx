@@ -1,3 +1,4 @@
+import { nanoid } from 'nanoid'
 import projectData from "./data/projects.json";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
@@ -11,9 +12,9 @@ export default function ProjectList() {
   return (
     <>
       {projectData &&
-        projectData.map((data, i) => {
+        projectData.map((data) => {
           return (
-            <Card key={i} className={`${s.container}`}>
+            <Card key={nanoid()} className={`${s.container}`}>
               <a href={data.link} target="_blank" rel="noreferrer">
                 <Card.Img
                   variant="bottom"

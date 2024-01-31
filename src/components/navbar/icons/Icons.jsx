@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import s from "./icons.module.css";
+import { nanoid } from "nanoid";
 
 export default function Icons() {
   const [icons, setIcons] = useState([
@@ -25,14 +26,13 @@ export default function Icons() {
   ]);
   return (
     <Nav className={`ms-auto-lg p-2 flex-row`}>
-      {icons.map((icon, i) => {
-        console.log(icon.fontAwesome);
+      {icons.map((icon) => {
         return (
           <Nav.Link
             href={`${icon.href}`}
             target="_blank"
             rel="noreferrer"
-            key={i}
+            key={nanoid()}
             aria-label={`link to ${icon.site}`}
           >
             <FontAwesomeIcon

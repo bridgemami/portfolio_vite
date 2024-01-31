@@ -1,3 +1,4 @@
+import { nanoid } from "nanoid";
 import { useState } from "react";
 import ProgressBar from "react-bootstrap/esm/ProgressBar";
 // import s from '../progressbarwidth.module.css'
@@ -25,11 +26,10 @@ export default function ProgressBarFrameworks() {
     role="tabpanel"
     aria-labelledby="frameworks-tab"
     tabIndex="1">
-      {frameworks.map((framework, i) => {
-        console.log(framework.percent);
+      {frameworks.map((framework) => {
         return (
           <div
-            key={i}
+            key={nanoid()}
           >
             <h4>{framework.language}</h4>
 
