@@ -1,5 +1,5 @@
-import bigHeadShot from "../../../assets/images/logos_and_photos/DSC06519-cropped_400px.webp";
-import smallHeadShot from "../../../assets/images/logos_and_photos/DSC06519-cropped_300px.webp";
+import bigHeadShot from "/images/logos_and_photos/DSC06519-cropped_400px.webp";
+import smallHeadShot from "/images/logos_and_photos/DSC06519-cropped_300px.webp";
 import { PropTypes } from "prop-types";
 
 // import s from './jumbotron.module.css'
