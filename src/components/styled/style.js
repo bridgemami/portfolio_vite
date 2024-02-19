@@ -4,6 +4,8 @@ const StyledFooter = styled.footer`
   background: #212529;
   color: white;
   padding: 2vh 2vw;
+  display: flex;
+  justify-content: space-between;
 `;
 const StyledPar = styled.p`
   margin: 0 0 0 0 !important;
@@ -33,11 +35,11 @@ const StyledThanks = styled.p`
 `;
 
 const StyledContactContainer = styled.section`
-  padding-bottom: 15px;
-  margin: 0 2vw;
+padding: 0 1em 1em 1em;
+margin: 0 2vw;
 `;
 const StyledAboutContainer = styled.section`
-  padding-bottom: 15px;
+  padding: 0 1em 1em 1em;
   margin: 0 2vw;
 `;
 

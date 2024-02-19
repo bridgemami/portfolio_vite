@@ -1,3 +1,4 @@
+import Icons from "../navbar/icons/Icons"
 import {StyledFooter, StyledPar} from "../styled/style"
 
 export default function Footer ({author}) {
@@ -5,6 +6,7 @@ export default function Footer ({author}) {
     return (
         <StyledFooter>
             <StyledPar>&#169; {author}, {year}</StyledPar>
+            <Icons />
         </StyledFooter>
     )
 }

@@ -29,7 +29,7 @@
       "alt": "The homepage for a Yosemite blog",
       "link": "https://bridgemami.github.io/yosemite/",
       "description": "A responsive blog site about grape Yosemite National Park using HTML, CSS and Bootstrap.",
-      "category": "HTML, CSS and BootStrap"
+      "category": "HTML, CSS, and BootStrap"
     },
     {
       "title": "Wine Region Blog",
@@ -53,7 +53,7 @@
       "alt": "The homepage for my favorite cities blog",
       "link": "https://bridgemami.github.io/CS50C_JSON-GOOGLEMAPS/",
       "description": "My favorite cities I have visited using HTML, JavaScript, JSON, and Google Maps' API.",
-      "category": "HTML, CSS, JavaScript and JSON"
+      "category": "HTML, CSS, JavaScript, and JSON"
     },
     {
       "title": "My Portfolio 1.0",
@@ -61,7 +61,7 @@
       "alt": "The homepage for my favorite cities blog",
       "link": "https://bridgemami.github.io/portfolio/",
       "description": "Version 1.0 of my portfolio. It was created with HTML, CSS, and BootStrap.",
-      "category": "HTML, CSS and BootStrap"
+      "category": "HTML, CSS, and BootStrap"
     },
     {
       "title": "Sightseeing in Paris",
@@ -69,7 +69,15 @@
       "alt": "The homepage for Sightseeing in Paris",
       "link": "https://bridgemami.github.io/Paris_/",
       "description": "Sightseeing site for Paris using HTML, CSS, JavaScript and OpenLayers.",
-      "category": "HTML, CSS and JavaScript"
+      "category": "HTML, CSS, and JavaScript"
+    },
+    {
+      "title": "Green Dragon Pub Ordering Site",
+      "image": "/sites/green_dragon_pub.jpg",
+      "alt": "Image of Green Dragon Pub Ordering App",
+      "link": "https://greendragonpubapp.netlify.app/",
+      "description": "An restaurant ordering site with ordering menu and cart.",
+      "category": "HTML, CSS, and JavaScript"
     },
     {
       "title": "Ron Swanson Eight Ball",
@@ -77,7 +85,15 @@
       "alt": "The homepage for Ron Swanson Eight Ball",
       "link": "https://bridgemami.github.io/eight-ball/",
       "description": "An eight-ball-esque site using a Ron Swanson quote API to tell your future.",
-      "category": "HTML, CSS and JavaScript"
+      "category": "HTML, CSS, and JavaScript"
+    },
+    {
+      "title": "Travel Journal",
+      "image": "/sites/travel_journal.jpg",
+      "alt": "The homepage for Ron Swanson Eight Ball",
+      "link": "https://travel-scrimba.netlify.app/",
+      "description": "My single page application travel journal created with React.",
+      "category": "HTML, CSS, JavaScript, JSON, and React"
     },
     {
       "title": "Star Wars Character List",
@@ -85,7 +101,7 @@
       "alt": "The homepage for Star Wars Charter List",
       "link": "https://module5-phi.vercel.app/",
       "description": "Star Wars character list using Next.js and deployed on Vercel.",
-      "category": "HTML, CSS, JavaScript, React, Next.js and Vercel"
+      "category": "HTML, CSS, JavaScript, React, and Next.js"
     },
     {
       "title": "Todo List",
@@ -93,7 +109,7 @@
       "alt": "The homepage for todo list site",
       "link": "https://next-firebase-todo-lime.vercel.app/",
       "description": "Todo site created with React, Next.js, Firebase and deployed on Vercel.",
-      "category": "HTML, CSS, JavaScript, React, Next.js, Vercel and Firebase"
+      "category": "HTML, CSS, JavaScript, React, Next.js, and Firebase"
     },
     {
       "title": "Database",
@@ -101,6 +117,6 @@
       "alt": "Database",
       "link": "https://week-14-headless-cms-powered-app.vercel.app/",
       "description": "Headless CMS database",
-      "category": "PHP, WordPress and Vercel"
+      "category": "PHP and WordPress"
     }
   ]
