@@ -5,23 +5,17 @@
       "alt": "The homepage for a dabbling duck blog",
       "link": "https://bridgemami.github.io/fun-with-ducks/",
       "description": "A basic blog site about ducks using HTML and CSS.",
-      "category": "HTML and CSS"
+      "category": "HTML and CSS",
+      "github" : "https://github.com/bridgemami/fun-with-ducks"
     },
-    {
-      "title": "Super Nintendo Blog",
-      "image": "/sites/super-nintendo-blog.png",
-      "alt": "The homepage for a Super Nintendo Blog",
-      "link": "https://bridgemami.github.io/super_nintendo/",
-      "description": "A basic blog site about Super Nintendo using HTML and CSS.",
-      "category": "HTML and CSS"
-    },
-    {
+        {
       "title": "Grape Varietals Blog",
       "image": "/sites/grape-blog.jpg",
       "alt": "The homepage for a grape varietals blog",
       "link": "https://bridgemami.github.io/lets-talk-about-grapes/",
       "description": "A responsive blog site about grape varietals using HTML and CSS.",
-      "category": "HTML and CSS"
+      "category": "HTML and CSS",
+      "github": "https://github.com/bridgemami/lets-talk-about-grapes"
     },
     {
       "title": "Yosemite Blog",
