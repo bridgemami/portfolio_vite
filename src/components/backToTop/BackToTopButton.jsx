@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome/index.es";
-import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
+import { FaAngleUp } from "react-icons/fa6";
 import s from "./backtotopbutton.module.css";
 
 export default function BackToTopButton() {
@@ -27,7 +26,7 @@ export default function BackToTopButton() {
     <div>
       {backToTop && (
         <button className={s.top} onClick={scrollUp} title="Back to the top">
-          <FontAwesomeIcon icon={faAngleUp} />
+          <FaAngleUp />
         </button>
       )}
     </div>

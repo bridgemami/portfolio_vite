@@ -1,8 +1,6 @@
 import { useState } from "react";
 import Nav from "../../../../node_modules/react-bootstrap/Nav";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa6";
 import s from "./icons.module.css";
 import { nanoid } from "nanoid";
 
@@ -10,17 +8,17 @@ export default function Icons() {
   const [icons, setIcons] = useState([
     {
       href: "https://github.com/bridgemami",
-      fontAwesome: faGithub,
+      icon: FaGithub,
       site: "GitHub Link",
     },
     {
       href: "https://www.linkedin.com/in/bridgemanmichael/",
-      fontAwesome: faLinkedin,
+      icon: FaLinkedin,
       site: "LinkedIn Link",
     },
     {
       href: "mailto:mdbridgeman@gmail.com",
-      fontAwesome: faEnvelope,
+      icon: FaEnvelope,
       site: "Email Link",
     },
   ]);
@@ -35,7 +33,7 @@ export default function Icons() {
             key={nanoid()}
             aria-label={`link to ${icon.site}`}
           >
-            <FontAwesomeIcon
+            <icon.icon
               className={`${s.faThreeX} pe-3 pe-lg-0`}
               icon={icon.fontAwesome}
               // aria-labelledby={`link to ${icon.site}`}
