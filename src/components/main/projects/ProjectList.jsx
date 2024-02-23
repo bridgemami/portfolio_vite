@@ -31,6 +31,15 @@ export default function ProjectList() {
                 <Card.Text className={s.text}>{data.description}</Card.Text>
                 <Card.Text className={s.text}>{data.category}</Card.Text>
                 <div className={s.button}>
+                <Button
+                    variant="link"
+                    className={s.buttonColor}
+                    href={data.github}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </Button>
                   <Button
                     variant="link"
                     className={s.buttonColor}

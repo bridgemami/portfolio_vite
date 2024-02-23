@@ -23,7 +23,8 @@
       "alt": "The homepage for a Yosemite blog",
       "link": "https://bridgemami.github.io/yosemite/",
       "description": "A responsive blog site about grape Yosemite National Park using HTML, CSS and Bootstrap.",
-      "category": "HTML, CSS, and BootStrap"
+      "category": "HTML, CSS, and BootStrap",
+      "github": "https://github.com/bridgemami/yosemite"
     },
     {
       "title": "Wine Region Blog",
@@ -31,7 +32,8 @@
       "alt": "The homepage for a wine region blog",
       "link": "https://dev-wines-of-the-south.pantheonsite.io/wines-of-the-south/",
       "description": "A responsive blog site about southern hemisphere wine regions using WordPress.",
-      "category": "WordPress"
+      "category": "WordPress",
+      "github": null
     },
     {
       "title": "Worldness Music",
@@ -39,7 +41,9 @@
       "alt": "The homepage for Worldness Music",
       "link": "https://dev-worldness-sandbox.pantheonsite.io/",
       "description": "My final project for Santa Rosa Junior College, in a team environnement, we created a mock music lesson site with WordPress.",
-      "category": "WordPress"
+      "category": "WordPress",
+      "github": null
+
     },
     {
       "title": "My Favorite Cities of the World",
@@ -47,15 +51,8 @@
       "alt": "The homepage for my favorite cities blog",
       "link": "https://bridgemami.github.io/CS50C_JSON-GOOGLEMAPS/",
       "description": "My favorite cities I have visited using HTML, JavaScript, JSON, and Google Maps' API.",
-      "category": "HTML, CSS, JavaScript, and JSON"
-    },
-    {
-      "title": "My Portfolio 1.0",
-      "image": "/sites/portfolioV1.jpg",
-      "alt": "The homepage for my favorite cities blog",
-      "link": "https://bridgemami.github.io/portfolio/",
-      "description": "Version 1.0 of my portfolio. It was created with HTML, CSS, and BootStrap.",
-      "category": "HTML, CSS, and BootStrap"
+      "category": "HTML, CSS, JavaScript, and JSON",
+      "github": "https://github.com/bridgemami/cs50c_google_map"
     },
     {
       "title": "Sightseeing in Paris",
@@ -63,7 +60,8 @@
       "alt": "The homepage for Sightseeing in Paris",
       "link": "https://bridgemami.github.io/Paris_/",
       "description": "Sightseeing site for Paris using HTML, CSS, JavaScript and OpenLayers.",
-      "category": "HTML, CSS, and JavaScript"
+      "category": "HTML, CSS, and JavaScript",
+      "github": "https://github.com/bridgemami/Paris_"
     },
     {
       "title": "Green Dragon Pub Ordering Site",
@@ -71,7 +69,8 @@
       "alt": "Image of Green Dragon Pub Ordering App",
       "link": "https://greendragonpubapp.netlify.app/",
       "description": "An restaurant ordering site with ordering menu and cart.",
-      "category": "HTML, CSS, and JavaScript"
+      "category": "HTML, CSS, and JavaScript",
+      "github": "https://github.com/bridgemami/restaurant_order_form"
     },
     {
       "title": "Ron Swanson Eight Ball",
@@ -79,7 +78,8 @@
       "alt": "The homepage for Ron Swanson Eight Ball",
       "link": "https://bridgemami.github.io/eight-ball/",
       "description": "An eight-ball-esque site using a Ron Swanson quote API to tell your future.",
-      "category": "HTML, CSS, and JavaScript"
+      "category": "HTML, CSS, and JavaScript",
+      "github": "https://github.com/bridgemami/eight-ball"
     },
     {
       "title": "Travel Journal",
@@ -87,7 +87,8 @@
       "alt": "The homepage for Ron Swanson Eight Ball",
       "link": "https://travel-scrimba.netlify.app/",
       "description": "My single page application travel journal created with React.",
-      "category": "HTML, CSS, JavaScript, JSON, and React"
+      "category": "HTML, CSS, JavaScript, JSON, and React",
+      "github": "https://github.com/bridgemami/travel-journal-scrimba"
     },
     {
       "title": "Star Wars Character List",
@@ -95,7 +96,8 @@
       "alt": "The homepage for Star Wars Charter List",
       "link": "https://module5-phi.vercel.app/",
       "description": "Star Wars character list using Next.js and deployed on Vercel.",
-      "category": "HTML, CSS, JavaScript, React, and Next.js"
+      "category": "HTML, CSS, JavaScript, React, and Next.js",
+      "github": "https://github.com/bridgemami/module5"
     },
     {
       "title": "Todo List",
@@ -103,7 +105,8 @@
       "alt": "The homepage for todo list site",
       "link": "https://next-firebase-todo-lime.vercel.app/",
       "description": "Todo site created with React, Next.js, Firebase and deployed on Vercel.",
-      "category": "HTML, CSS, JavaScript, React, Next.js, and Firebase"
+      "category": "HTML, CSS, JavaScript, React, Next.js, and Firebase",
+      "github": "https://github.com/bridgemami/next-firebase-todo"
     },
     {
       "title": "Database",
@@ -111,6 +114,7 @@
       "alt": "Database",
       "link": "https://week-14-headless-cms-powered-app.vercel.app/",
       "description": "Headless CMS database",
-      "category": "PHP and WordPress"
+      "category": "PHP and WordPress",
+      "github": "https://github.com/bridgemami/week_14_ec_app"
     }
   ]

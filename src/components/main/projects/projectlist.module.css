@@ -37,15 +37,18 @@ a {
 }
 .button {
   display: flex !important;
+  flex-direction: column;
+  gap: 1em;
   justify-content: center !important;
   flex-wrap: nowrap;
-  flex-direction: row;
+  align-items: center;
 }
 
 .buttonColor {
   /* background: var(--red) !important; */
   background: #A30021 !important;
   color: var(--white) !important;
+  width: 50%;
 }
 
 .button:hover {
