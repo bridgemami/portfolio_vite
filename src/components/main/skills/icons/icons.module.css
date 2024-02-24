@@ -1,8 +1,22 @@
-.color {
-    color: snow;
-    font-size: 3rem;
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: space-between;
+    padding: 0 1em;
+    flex-basis: 50%;
+}
+.item_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white);
+    font-size: 5rem;
+
 }
 
-p {
-    color: snow;
+.item_container:hover, .item_container:focus {
+    color: #A30021;
+    font-weight: bold;
 }

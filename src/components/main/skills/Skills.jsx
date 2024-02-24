@@ -1,11 +1,11 @@
-// import s from './skills.module.css';
+import s from './skills.module.css';
 //import TabList from './tabs/TabList';
 import Title from './title/Title';
 import Icons from './icons/Icons';
 
 export default function Skills () {
     return (
-    <section className="container">
+    <section className={s.container}>
       <Title title="Skills" />
       <Icons />       
       </section>

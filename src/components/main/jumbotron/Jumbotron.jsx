@@ -6,7 +6,7 @@ import { PropTypes } from "prop-types";
 export default function Jumbotron({ name, title }) {
   return (
     <section
-      className={`d-flex flex-wrap justify-content-center justify-content-sm-around`}
+      className={`d-flex flex-wrap justify-content-center justify-content-sm-around mb-5`}
     >
       <picture className=" rounded-circle rounded-5 my-3">
         <source

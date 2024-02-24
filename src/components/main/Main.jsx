@@ -12,9 +12,9 @@ export default function Main() {
   return (
     <main className={s.main}>
       <Jumbotron name="Michael Bridgeman" title="Front-end Web Developer" />
+      <About />
       <Skills />
       <Projects />
-      <About />
       <Contact />
       <BackToTopButton />
     </main>

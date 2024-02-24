@@ -1,8 +1,9 @@
 import { nanoid } from "nanoid";
 import { useState } from "react"
-import { DiHtml5, DiCss3, DiJavascript, DiSass, DiBootstrap, 
+import { DiHtml5, DiCss3, DiSass, DiBootstrap, 
         DiReact, DiWordpress, DiGit, DiGithubBadge, DiResponsive } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
+import { IoLogoJavascript } from "react-icons/io5";
 import { FaUniversalAccess } from "react-icons/fa";
 import { SiOpenapiinitiative, SiNextdotjs, SiFirebase } from "react-icons/si";
 
@@ -10,11 +11,11 @@ import s from './icons.module.css'
 
 export default function Icons () {
     const [skills, setSkills] = useState([
-        {icon: <DiHtml5 />,
+             {icon: <DiHtml5 />,
         title: "HTML5"},
         {icon: <DiCss3 />,
         title: "CSS3"},
-        {icon: <DiJavascript />,
+        {icon: <IoLogoJavascript />,
         title:"javascript + ES6"},
         {icon:<DiSass />,
         title: "SASS"},
@@ -36,20 +37,18 @@ export default function Icons () {
         title:"git"},
         {icon: <DiGithubBadge />,
         title:"github"},
-        {icon: <DiResponsive />,
-        title:"Responsive design"},
         {icon: <FaUniversalAccess/>,
         title:"Accessibility"},
+        {icon: <DiResponsive  />,
+        title:"Responsive design"},
       ])
 
       return (
-        <ul>
+        <ul className={s.list}>
         {
           skills.map(skill=> {
-            return (<li key={nanoid()}>
-            <span className={s.color}>
-                {skill.icon}
-          </span>
+            return (<li key={nanoid()} className={s.item_container}>
+            {skill.icon}
             <p>{skill.title.toUpperCase()}</p>
             </li>)
           })
