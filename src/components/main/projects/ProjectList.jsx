@@ -2,11 +2,7 @@ import { nanoid } from 'nanoid'
 import projectData from "./data/projects.json";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-// import Container from "react-bootstrap/Container";
-// import Row from "react-bootstrap/Row";
-// import Col from "react-bootstrap/Col";
 import s from "./projectlist.module.css";
-// import t from '../../../assets/images/sites/'
 
 export default function ProjectList() {
   return (
@@ -38,7 +34,7 @@ export default function ProjectList() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Github
+                    GitHub
                   </Button>
                   <Button
                     variant="link"

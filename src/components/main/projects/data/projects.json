@@ -84,7 +84,7 @@
     {
       "title": "Travel Journal",
       "image": "/sites/travel_journal.jpg",
-      "alt": "The homepage for Ron Swanson Eight Ball",
+      "alt": "The homepage for my travel journal",
       "link": "https://travel-scrimba.netlify.app/",
       "description": "My single page application travel journal created with React.",
       "category": "HTML, CSS, JavaScript, JSON, and React",

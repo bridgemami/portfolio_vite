@@ -42,7 +42,6 @@ export default function Icons () {
         {icon: <DiResponsive  />,
         title:"Responsive design"},
       ])
-
       return (
         <ul className={s.list}>
         {
