@@ -1,0 +1,43 @@
+.form {
+display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  padding: 0 0 2em 0;
+
+}
+
+s.container {
+    display: flex;
+}
+
+label {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.submit {
+    cursor: pointer;
+    font-weight: bold !important;
+    padding: 0 0 1em 0;
+}
+
+.submit:focus, .submit:hover {
+    background-color: var(--white) !important;
+    color: var(--red) !important;
+}
+
+input[type='text'], input[type='email'], textarea {
+    max-width: 100% !important;
+}
+
+@media (min-width: 1024px) {
+    .form {
+        width: 50% !important;
+    }
+
+    textarea {
+        height: 20dvh;
+    }
+}

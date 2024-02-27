@@ -8,9 +8,9 @@
   
   }
   
-  .faThreeX:hover {
+  .faThreeX:hover, .faThreeX:focus {
       font-size: 3.5em;
-      color: var(--white);
+      color: var(--white) !important;
     }
   
     .middleIcon {

@@ -1,0 +1,23 @@
+.email {
+    cursor: pointer;
+}
+
+.email:hover, .email:focus {
+    color: var(--red) !important;
+}
+@media (min-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 5em;
+        /* width: 100vw; */
+    }
+
+    .message {
+        width: 50% !important;
+        font-size: 1.5rem !important;
+        line-height: 2em;
+        order: 2;
+    }
+
+}

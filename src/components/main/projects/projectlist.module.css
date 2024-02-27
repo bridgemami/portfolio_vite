@@ -51,12 +51,12 @@ a {
   width: 50%;
 }
 
-.button:hover {
+.button:hover, .button:focus {
   display: flex !important;
   justify-content: center !important;
 }
 
-.buttonColor:hover {
+.buttonColor:hover, .buttonColor:focus {
   /* align-self: center !important; */
   /* font-size: 1.2rem; */
   /* padding: .625rem 1rem; */

@@ -1,5 +1,4 @@
-import { useState } from "react";
-import Nav from "../../../../node_modules/react-bootstrap/Nav";
+import { useState, useEffect } from "react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa6";
 import s from "./icons.module.css";
 import { nanoid } from "nanoid";
@@ -22,25 +21,37 @@ export default function Icons() {
       site: "Email Link",
     },
   ]);
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      smooth: "smooth",
+    });
+  };
   return (
-    <Nav className={`ms-auto-lg p-2 flex-row`}>
+    <section className={`ms-auto-lg p-2 flex-row`}>
+      <ul className={s.icon_container}>
       {icons.map((icon) => {
         return (
-          <Nav.Link
+          <li
+            key={nanoid()}
+          >
+            <a
             href={`${icon.href}`}
             target="_blank"
             rel="noreferrer"
-            key={nanoid()}
+            className={s.subcontainer}
             aria-label={`link to ${icon.site}`}
-          >
+            >
             <icon.icon
-              className={`${s.faThreeX} pe-3 pe-lg-0`}
-              icon={icon.fontAwesome}
-              // aria-labelledby={`link to ${icon.site}`}
+              className={`${s.faThreeX} pe-lg-0`}
             />
-          </Nav.Link>
+            </a>
+          </li>
         );
       })}
-    </Nav>
+      </ul>
+      <p className={s.back} onClick={() => scrollUp()}>BACK TO THE TOP</p>
+    </section>
   );
 }

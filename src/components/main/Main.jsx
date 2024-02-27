@@ -5,7 +5,6 @@ import Projects from "./projects/Projects";
 import About from "./about/About";
 import Contact from "./contact/Contact";
 import s from "./main.module.css";
-import BackToTopButton from "../backToTop/BackToTopButton";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Main() {
@@ -16,7 +15,7 @@ export default function Main() {
       <Skills />
       <Projects />
       <Contact />
-      <BackToTopButton />
+      {/* <BackToTopButton /> */}
     </main>
   );
 }

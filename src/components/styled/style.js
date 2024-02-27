@@ -5,26 +5,19 @@ const StyledFooter = styled.footer`
   color: white;
   padding: 2vh 2vw;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 `;
 const StyledPar = styled.p`
   margin: 0 0 0 0 !important;
 `;
-const StyledParagraphFont = styled.p`
-  color: #f2f2f2;
-  font-size: 1.1rem;
-`;
+
 const StyledHeadingFont = styled.h2`
   text-align: center;
   color: #f2f2f2;
 `;
 
-const StyledForm = styled.div`
-  display: flex;
-  flex-direction: column;
-  color: #f2f2f2;
-  font-size: 1rem;
-`;
 const StyledThanks = styled.p`
   color: #f2f2f2;
   font-size: 1.2rem;
@@ -66,23 +59,22 @@ const GlobalStyle = createGlobalStyle`
     max-width: 66.67%;
   }
   
-  // @media (min-width: 576px) {
-  //   p {
-  //     font-size: 24px;
-  //   } 
-  // }
+   @media (min-width: 576px) {
+     p {
+       font-size: 24px;
+     } 
+   }
   
-  // @media screen and (min-width: 769px) {
-  //   p {
-  //     font-size: 32px;
-  //   }
+   @media screen and (min-width: 769px) {
+     p {
+       font-size: 32px;
+     }
 `;
 
 export {
   StyledFooter,
   StyledPar,
   StyledHeadingFont,
-  StyledForm,
   StyledAboutContainer,
   StyledContactContainer,
   StyledThanks,
