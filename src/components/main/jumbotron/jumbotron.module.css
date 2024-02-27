@@ -1,3 +1,7 @@
 .background {
     background: var(--black);
   }
+
+  .heading, .picture {
+    animation-duration: 3s;
+  }

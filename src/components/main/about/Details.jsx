@@ -1,8 +1,11 @@
 import s from './details.module.css'
+import 'animate.css';
+
 export default function Details() {
   return (
     <article>
-      <h2>About</h2>
+      <h2 className={`animate__animated animate__backInLeft ${s.title}`}>About</h2>
+      <div className={`animate__animated animate__backInRight ${s.container}`}>
       <p className={s.paragraph}>
       Ready to embark on an exciting journey in the world of web development? Look no further! With a bachelor&apos;s degree in business from Sonoma State University and over a decade of experience in the retail, hospitality, and customer service industries, I have honed my skills in delivering exceptional experiences to people. During my involvement in launching the tablet program at Black Stallion Estate Winery, I discovered my fascination with the transformative power of technology in streamlining business operations and enhancing efficiency.
       </p>
@@ -15,6 +18,7 @@ export default function Details() {
       <p className={s.paragraph}>
       I am truly excited to share my web development projects and experiences with you through this portfolio. Let us embark on a captivating journey together, exploring the limitless possibilities at the intersection of creativity, technology, and human connection.
       </p>
+      </div>
     </article>
   );
 }

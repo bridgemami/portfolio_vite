@@ -4,3 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+.title {
+    animation-duration: 3s;
+}

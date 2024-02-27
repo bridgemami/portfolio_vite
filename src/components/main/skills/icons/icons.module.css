@@ -13,6 +13,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-auto-flow: row;
     padding: 0 .5em;
+    animation-duration: 3s;
   }
   
 .item_container {

@@ -1,3 +1,7 @@
+.title, .container {
+    animation-duration: 3s;
+}
+
 .paragraph {
     line-height: 1.75em;
 }

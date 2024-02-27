@@ -1,12 +1,13 @@
 import { nanoid } from "nanoid";
 import { useState } from "react"
-import { DiHtml5, DiCss3, DiSass, DiBootstrap, 
+import { DiHtml5, DiCss3, DiSass, 
         DiReact, DiWordpress, DiGit, DiGithubBadge, DiResponsive } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io5";
+import { FaBootstrap } from "react-icons/fa6"
 import { FaUniversalAccess } from "react-icons/fa";
 import { SiOpenapiinitiative, SiNextdotjs, SiFirebase } from "react-icons/si";
-
+import 'animate.css';
 import s from './icons.module.css'
 
 export default function Icons () {
@@ -23,7 +24,7 @@ export default function Icons () {
         title: "JSON"},
         {icon:<SiOpenapiinitiative />,
         title: "OPEN APIS"},
-        {icon: <DiBootstrap />,
+        {icon: <FaBootstrap />,
         title:"bootstrap 5"},
         {icon: <DiReact />,
         title:"react"},
@@ -43,7 +44,7 @@ export default function Icons () {
         title:"Responsive design"},
       ])
       return (
-        <ul className={s.list}>
+        <ul className={`animate__animated animate__backInRight ${s.list}`}>
         {
           skills.map(skill=> {
             return (<li key={nanoid()} className={s.item_container}>
