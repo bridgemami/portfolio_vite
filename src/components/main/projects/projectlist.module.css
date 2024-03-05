@@ -1,95 +1,19 @@
-.projectlist {
-  animation-duration: 3s;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.container {
-  background-color:  var(--lightBlack) !important;
-  margin-bottom: 5vh;
-  width: 18rem !important;
-  display: flex !important;
-  justify-content: space-evenly !important;
+.projectContainer {
+    display: flex;
+    flex-direction: column;
 }
 
-.image {
-  margin: 1vh 0 0 0;
-  border-radius: 5px;
-  width: 262.4px !important;
-  height: 145px !important;
-}
-.body {
-  color: var(--white);
-  background-color:  var(--lightBlack) !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: space-evenly !important;
-
-}
-
-a {
-  text-decoration: none !important;
-}
-
-.title {
-  text-decoration: none !important;
-  color: var(--white) !important;
-  font-size: 1.75rem !important; 
-  padding: 0 0 5% 0;
-}
-
-.text {
-  font-size: 1rem !important;
-}
-
-.skillsContainer {
-  display: flex;
-  gap: 1em;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.skill {
-  font-size: 3rem !important;
-
-}
-.button {
-  display: flex !important;
-  flex-direction: column;
-  gap: 1em;
-  justify-content: center !important;
-  flex-wrap: nowrap;
-  align-items: center;
-}
-
-.buttonColor {
-  /* background: var(--red) !important; */
-  background: #A30021 !important;
-  color: var(--white) !important;
-  width: 50%;
-}
-
-.button:hover, .button:focus {
-  display: flex !important;
-  justify-content: center !important;
-}
-
-.buttonColor:hover, .buttonColor:focus {
-  /* align-self: center !important; */
-  /* font-size: 1.2rem; */
-  /* padding: .625rem 1rem; */
-  vertical-align: center;
-  background: var(--white) !important;
-  color: #A30021 !important;
-}
-
-.heading {
-margin: 3vh 0;
-}
-
-a {
-  color: var(--white) !important;
-  font-weight: bold !important;
-}
-
-.animation {
-  animation-duration: 3s;
+@media(min-width: 767px) {
+    .projectContainer{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
 }

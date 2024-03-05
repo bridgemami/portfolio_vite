@@ -1,7 +1,8 @@
 import { nanoid } from 'nanoid'
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import s from "./projectlist.module.css";
+import s from "./projectcard.module.css";
+import { PropTypes } from "prop-types";
 import { DiHtml5, DiCss3, DiSass, 
     DiReact, DiWordpress } from "react-icons/di";
   import { VscJson } from "react-icons/vsc";
@@ -23,8 +24,8 @@ export default function ProjectCard({link, image, alt, title, description, categ
         SiFirebase: SiFirebase
       };
      return(
-     <Card className={`${s.container}`}>
-                    <a href={link} target="_blank" rel="noreferrer">
+     <Card className={s.container}>
+                    <a href={link} target="_blank" rel="noreferrer" className={s.imageContainer}>
                       <Card.Img
                         variant="bottom"
                         src={image}
@@ -68,3 +69,13 @@ export default function ProjectCard({link, image, alt, title, description, categ
                     </Card.Body>
                   </Card>)
       }
+
+ProjectCard.propTypes = {
+  link: PropTypes.string,
+  image:PropTypes.string, 
+  alt: PropTypes.string, 
+  title: PropTypes.string, 
+  description: PropTypes.string, 
+  category: PropTypes.array, 
+  github: PropTypes.string,
+      };
