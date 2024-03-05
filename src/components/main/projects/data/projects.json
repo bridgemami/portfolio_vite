@@ -72,7 +72,7 @@
     {
       "title": "Green Dragon Pub Ordering Site",
       "image": "/sites/green_dragon_pub.jpg",
-      "alt": "Image of Green Dragon Pub Ordering App",
+      "alt": "Green Dragon Pub Ordering App",
       "link": "https://greendragonpubapp.netlify.app/",
       "description": "An restaurant ordering site with ordering menu and cart.",
       "category": ["DiHtml5", "DiCss3", "IoLogoJavascript"],
@@ -122,7 +122,7 @@
     {
       "title": "Database",
       "image": "/sites/database.jpg",
-      "alt": "Database",
+      "alt": "Headless Database",
       "link": "https://week-14-headless-cms-powered-app.vercel.app/",
       "description": "Headless CMS database",
       "category": ["DiWordpress"],
