@@ -9,7 +9,7 @@ import { DiHtml5, DiCss3, DiSass,
   import { IoLogoJavascript } from "react-icons/io5";
   import { SiNextdotjs, SiFirebase } from "react-icons/si";
 
-export default function ProjectCard({link, image, alt, title, description, category, github, }){
+export default function ProjectCard({link, image, alt, title, description, category, github }){
     const categoryMap = {
         DiHtml5: DiHtml5,
         DiCss3: DiCss3,
@@ -22,7 +22,8 @@ export default function ProjectCard({link, image, alt, title, description, categ
         SiNextdotjs: SiNextdotjs,
         SiFirebase: SiFirebase
       };
-        <Card className={`${s.container}`}>
+     return(
+     <Card className={`${s.container}`}>
                     <a href={link} target="_blank" rel="noreferrer">
                       <Card.Img
                         variant="bottom"
@@ -38,9 +39,9 @@ export default function ProjectCard({link, image, alt, title, description, categ
                       </a>
                       <Card.Text className={s.text}>{description}</Card.Text>
                       <Card.Text className={s.skillsContainer}>{category.map(categoryName=>{
-                        const CategoryComponet = categoryMap[categoryName]
-                        if(CategoryComponet) {
-                          return <CategoryComponet key={nanoid()} className={s.skill} />
+                        const CategoryComponent = categoryMap[categoryName]
+                        if(CategoryComponent) {
+                          return <CategoryComponent key={nanoid()} className={s.skill} />
                         }
                         return null
                       })}</Card.Text>
@@ -65,5 +66,5 @@ export default function ProjectCard({link, image, alt, title, description, categ
                         </Button>
                       </div>
                     </Card.Body>
-                  </Card>
+                  </Card>)
       }
