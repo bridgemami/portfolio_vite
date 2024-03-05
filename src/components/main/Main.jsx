@@ -1,9 +1,9 @@
-import React from "react";
 import Jumbotron from "./jumbotron/Jumbotron";
 import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
 import About from "./about/About";
 import Contact from "./contact/Contact";
+import BackToTopButton from "../backToTop/BackToTopButton";
 import s from "./main.module.css";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -15,7 +15,7 @@ export default function Main() {
       <Skills />
       <Projects />
       <Contact />
-      {/* <BackToTopButton /> */}
+      <BackToTopButton />
     </main>
   );
 }

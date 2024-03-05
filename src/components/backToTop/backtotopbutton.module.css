@@ -1,11 +1,16 @@
 .top {
     position: fixed;
     bottom: 50px;
-    right: 50px;
+    right: 0;
     height: 50px;
     width: 50px;
     font-size: 50px;
     color:var(--white);
     background: none;
     border: var(--black);
+    animation-duration: 3s;
+}
+
+.top:hover, .top:focus {
+    color: var(--red);
 }

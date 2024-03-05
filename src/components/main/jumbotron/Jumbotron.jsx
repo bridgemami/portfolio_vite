@@ -3,7 +3,6 @@ import smallHeadShot from "/images/logos_and_photos/DSC06519-cropped_300px.webp"
 import { PropTypes } from "prop-types";
 import 'animate.css'
 import s from './jumbotron.module.css'
-import { useEffect, useState } from "react";
 
 export default function Jumbotron({ name, title }) {
  
