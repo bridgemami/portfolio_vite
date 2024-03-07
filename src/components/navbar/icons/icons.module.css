@@ -1,11 +1,11 @@
   .faThreeX {
     font-size: 3rem;
     /* color: var(--red); */
-    color: #A30021 !important;
+    color: var(--red) !important;
 
 }
 
-.faThreeX:hover {
+.faThreeX:hover, .faThreeX:focus {
     /* font-size: 3.5em; */
     color: var(--white) !important;
   }

@@ -8,7 +8,7 @@ import './override.css'
 
 export default function NavBar() {
   return (
-    <Navbar bg="dark" expand="lg">
+    <Navbar bg="dark" expand="lg" id="navbar">
       <Container fluid>
         {/* <!--logo--> */}
         <Brand />

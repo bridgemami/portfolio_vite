@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Nav from "../../../../node_modules/react-bootstrap/Nav";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { FaFileDownload } from "react-icons/fa";
 import resume from "/Michael_Bridgeman_Resume_2_24.pdf";
 import s from "./links.module.css";
 import { nanoid } from "nanoid";
@@ -13,16 +12,16 @@ export default function Links() {
       href: "/",
     },
     {
+      title: "About",
+      href: "/#about",
+    },
+    {
       title: "Skills",
       href: "/#skills",
     },
     {
       title: "Projects",
       href: "/#projects",
-    },
-    {
-      title: "About",
-      href: "/#about",
     },
     {
       title: "Contact",
@@ -45,7 +44,7 @@ export default function Links() {
       })}
       <Nav.Link href={resume} className={`nav-link ${s.font}`} download>
         Resume
-        <FontAwesomeIcon icon={faFileArrowDown} className={s.faDownArrow} />
+        <FaFileDownload className={s.faDownArrow} />
       </Nav.Link>
     </Nav>
   );

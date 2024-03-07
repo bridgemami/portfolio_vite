@@ -1,15 +1,15 @@
-// import s from './skills.module.css';
-import TabList from './tabs/TabList';
+import s from './skills.module.css';
 import Title from './title/Title';
+import Icons from './icons/Icons';
+
 
 export default function Skills () {
+  
     return (
-    <section className="container">
-   <Title title="My Skills" id="skills"/>
-    <div className="row">
-    <TabList />
-    </div>
-              
-  </section>
+    <section className={s.container}  id="skills">
+      <Title title="Skills" />
+      <Icons />       
+      </section>
+    
     )
 }

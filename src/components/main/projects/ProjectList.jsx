@@ -1,50 +1,32 @@
 import { nanoid } from 'nanoid'
-import projectData from "./data/projects.json";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-// import Container from "react-bootstrap/Container";
-// import Row from "react-bootstrap/Row";
-// import Col from "react-bootstrap/Col";
-import s from "./projectlist.module.css";
-// import t from '../../../assets/images/sites/'
+import ProjectCard from './ProjectCard';
+import { PropTypes } from "prop-types";
+import s from './projectlist.module.css'
 
-export default function ProjectList() {
+
+export default function ProjectList({heading, projectData}) {
   return (
-    <>
+    <section className={s.container}>
+      <h3>{heading}</h3>
+      <section className={s.projectContainer}>
       {projectData &&
-        projectData.map((data) => {
-          return (
-            <Card key={nanoid()} className={`${s.container}`}>
-              <a href={data.link} target="_blank" rel="noreferrer">
-                <Card.Img
-                  variant="bottom"
-                  src={data.image}
-                  alt={`${data.alt}`}
-                  className={s.image}
-                />
-              </a>
-              {/* fix image link */}
-              <Card.Body className={s.body}>
-                <a href={data.link} target="_blank" rel="noreferrer">
-                  <Card.Title className={s.title}>{data.title}</Card.Title>
-                </a>
-                <Card.Text className={s.text}>{data.description}</Card.Text>
-                <Card.Text className={s.text}>{data.category}</Card.Text>
-                <div className={s.button}>
-                  <Button
-                    variant="link"
-                    className={s.buttonColor}
-                    href={data.link}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Visit
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
-          );
-        })}
-    </>
+      projectData.map(db => {
+         return ( <ProjectCard
+          key={nanoid()}
+          link={db.link} 
+          image={db.image} 
+          alt={db.alt} 
+          title={db.title} 
+          description={db.description} 
+          category={db.category}
+          github={db.github} />)
+      })}
+      </section>
+    </section>
   );
 }
+
+ProjectList.propTypes = {
+  heading: PropTypes.string,
+  projectData: PropTypes.array,
+};

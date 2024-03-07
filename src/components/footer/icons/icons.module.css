@@ -1,0 +1,36 @@
+.icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    padding: 0;
+}
+
+.subcontainer {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-end;
+}
+
+.faThreeX {
+    font-size: 3rem;
+    color: var(--red) !important;
+   }
+
+.faThreeX:hover, .faThreeX:focus {
+    color: var(--white) !important;
+    cursor: pointer;
+  }
+
+  .back {
+    margin: 1em 0;
+    text-align: center;
+    cursor: pointer;
+  }
+
+ .back:hover, .back:focus {
+    color: var(--red) !important;
+    font-weight: bold;
+    cursor: pointer;
+ }

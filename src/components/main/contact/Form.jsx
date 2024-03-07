@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import { useForm, ValidationError } from "@formspree/react";
-import { StyledForm, StyledThanks } from "../../styled/style";
-
+import {  StyledThanks } from "../../styled/style";
+import s from "./form.module.css"
 export default function Form() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
@@ -13,19 +13,7 @@ export default function Form() {
     return <StyledThanks>Thank you for reaching out!</StyledThanks>;
   }
   return (
-    <form onSubmit={handleSubmit}>
-      <StyledForm>
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Email"
-          required
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <ValidationError prefix="email" field="email" errors={state.errors} />
+    <form onSubmit={handleSubmit} className={s.form}>
         <label htmlFor="name">Name:</label>
         <input
           type="text"
@@ -37,6 +25,17 @@ export default function Form() {
           onChange={(e) => setName(e.target.value)}
         />
         <ValidationError prefix="name" field="name" errors={state.errors} />
+        <label htmlFor="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <ValidationError prefix="email" field="email" errors={state.errors} />
         <label htmlFor="subject">Subject:</label>
         <input
           type="text"
@@ -66,10 +65,9 @@ export default function Form() {
           field="message"
           errors={state.errors}
         />
-        <Button type="submit" disabled={state.submitting}>
-          Submit
+        <Button type="submit" disabled={state.submitting} className={s.submit}>
+          {"get in touch".toUpperCase()}
         </Button>
-      </StyledForm>
     </form>
   );
 }
