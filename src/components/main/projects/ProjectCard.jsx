@@ -47,15 +47,16 @@ export default function ProjectCard({link, image, alt, title, description, categ
                         return null
                       })}</Card.Text>
                       <div className={s.button}>
-                      <Button
+                      {github !== "" ? <Button
                           variant="link"
                           className={s.buttonColor}
                           href={github}
                           target="_blank"
-                          rel="noreferrer"
-                        >
+                          rel="noreferrer">
                           GitHub
-                        </Button>
+                        </Button> :
+                        <></>
+                        }
                         <Button
                           variant="link"
                           className={s.buttonColor}
