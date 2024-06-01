@@ -7,7 +7,7 @@
     "description": "My final project for Santa Rosa Junior College, in a team environnement, we created the inaugural Thickies.LLC site.",
     "category": ["DiWordpress"],
     "github": "",
-    "isActive": fals
+    "isActive": false
   },  
   {
       "title": "Grape Varietals Blog",
