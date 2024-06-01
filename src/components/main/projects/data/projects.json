@@ -1,15 +1,15 @@
 [
-    {
-      "title": "Dabbling Duck Blog",
-      "image": "sites/dabbling-duck-blog.jpg",
-      "alt": "The homepage for a dabbling duck blog",
-      "link": "https://bridgemami.github.io/fun-with-ducks/",
-      "description": "A basic blog site about ducks using HTML and CSS.",
-      "category": ["DiHtml5","DiCss3"],
-      "github" : "https://github.com/bridgemami/fun-with-ducks",
-      "isActive": false
-    },
-        {
+  {
+    "title": "Thickies.LLC",
+    "image": "/sites/thickies_site.jpg",
+    "alt": "The homepage for Thickies.LLC",
+    "link": "https://thickies.llc",
+    "description": "My final project for Santa Rosa Junior College, in a team environnement, we created the inaugural Thickies.LLC site.",
+    "category": ["DiWordpress"],
+    "github": "",
+    "isActive": false
+  },  
+  {
       "title": "Grape Varietals Blog",
       "image": "/sites/grape-blog.jpg",
       "alt": "The homepage for a grape varietals blog",
@@ -36,17 +36,7 @@
       "link": "https://dev-wines-of-the-south.pantheonsite.io/wines-of-the-south/",
       "description": "A responsive blog site about southern hemisphere wine regions using WordPress.",
       "category": ["DiWordpress"],
-      "github": null,
-      "isActive": false
-    },
-    {
-      "title": "Worldness Music",
-      "image": "/sites/worldness.jpg",
-      "alt": "The homepage for Worldness Music",
-      "link": "https://dev-worldness-sandbox.pantheonsite.io/",
-      "description": "My final project for Santa Rosa Junior College, in a team environnement, we created a mock music lesson site with WordPress.",
-      "category": ["DiWordpress"],
-      "github": null,
+      "github": "",
       "isActive": false
     },
     {
@@ -59,17 +49,7 @@
       "github": "https://github.com/bridgemami/cs50c_google_map",
       "isActive": false
     },
-    {
-      "title": "Sightseeing in Paris",
-      "image": "/sites/paris.jpg",
-      "alt": "The homepage for Sightseeing in Paris",
-      "link": "https://bridgemami.github.io/Paris_/",
-      "description": "Sightseeing site for Paris using HTML, CSS, JavaScript and OpenLayers.",
-      "category": ["DiHtml5", "DiCss3", "IoLogoJavascript"],
-      "github": "https://github.com/bridgemami/Paris_",
-      "isActive": false
-    },
-    {
+      {
       "title": "Green Dragon Pub Ordering Site",
       "image": "/sites/green_dragon_pub.jpg",
       "alt": "Green Dragon Pub Ordering App",
