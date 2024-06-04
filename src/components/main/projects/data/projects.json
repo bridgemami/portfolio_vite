@@ -9,14 +9,74 @@
     "github": "",
     "isActive": false
   },  
-  {
-      "title": "Grape Varietals Blog",
-      "image": "/sites/grape-blog.jpg",
-      "alt": "The homepage for a grape varietals blog",
-      "link": "https://bridgemami.github.io/lets-talk-about-grapes/",
-      "description": "A responsive blog site about grape varietals using HTML and CSS.",
-      "category": ["DiHtml5","DiCss3"],
-      "github": "https://github.com/bridgemami/lets-talk-about-grapes",
+         {
+      "title": "Green Dragon Pub Ordering Site",
+      "image": "/sites/green_dragon_pub.jpg",
+      "alt": "Green Dragon Pub Ordering App",
+      "link": "https://greendragonpubapp.netlify.app/",
+      "description": "An restaurant ordering site with ordering menu and cart.",
+      "category": ["DiHtml5", "DiCss3", "IoLogoJavascript"],
+      "github": "https://github.com/bridgemami/restaurant_order_form",
+      "isActive": false
+    },
+        {
+      "title": "Travel Journal",
+      "image": "/sites/travel_journal.jpg",
+      "alt": "The homepage for my travel journal",
+      "link": "https://travel-scrimba.netlify.app/",
+      "description": "My single page application travel journal created with React.",
+      "category": ["DiHtml5", "DiCss3", "IoLogoJavascript", "VscJson", "DiReact" ],
+      "github": "https://github.com/bridgemami/travel-journal-scrimba",
+      "isActive": true
+    },
+      {
+      "title": "Database",
+      "image": "/sites/database.jpg",
+      "alt": "Headless Database",
+      "link": "https://week-14-headless-cms-powered-app.vercel.app/",
+      "description": "Headless CMS database",
+      "category": ["DiWordpress"],
+      "github": "https://github.com/bridgemami/week_14_ec_app",
+      "isActive": false
+    },
+    {
+      "title": "Todo List",
+      "image": "/sites/todo.jpg",
+      "alt": "The homepage for todo list site",
+      "link": "https://next-firebase-todo-lime.vercel.app/",
+      "description": "Todo site created with React, Next.js, Firebase and deployed on Vercel.",
+      "category": ["DiHtml5", "DiCss3", "IoLogoJavascript", "DiReact", "SiNextdotjs", "SiFirebase"],
+      "github": "https://github.com/bridgemami/next-firebase-todo",
+      "isActive": false
+    },
+    {
+      "title": "Star Wars Character List",
+      "image": "/sites/charList.jpg",
+      "alt": "The homepage for Star Wars Charter List",
+      "link": "https://module5-phi.vercel.app/",
+      "description": "Star Wars character list using Next.js and deployed on Vercel.",
+      "category": ["DiHtml5", "DiCss3", "IoLogoJavascript", "VscJson", "DiReact", "SiNextdotjs"],
+      "github": "https://github.com/bridgemami/module5",
+      "isActive": false
+    },
+        {
+      "title": "My Favorite Cities of the World",
+      "image": "/sites/cities.jpg",
+      "alt": "The homepage for my favorite cities blog",
+      "link": "https://bridgemami.github.io/CS50C_JSON-GOOGLEMAPS/",
+      "description": "My favorite cities I have visited using HTML, JavaScript, JSON, and Google Maps' API.",
+      "category": ["DiHtml5", "DiCss3", "IoLogoJavascript", "VscJson"],
+      "github": "https://github.com/bridgemami/cs50c_google_map",
+      "isActive": false
+    },
+       {
+      "title": "Wine Region Blog",
+      "image": "/sites/region-blog.jpg",
+      "alt": "The homepage for a wine region blog",
+      "link": "https://dev-wines-of-the-south.pantheonsite.io/wines-of-the-south/",
+      "description": "A responsive blog site about southern hemisphere wine regions using WordPress.",
+      "category": ["DiWordpress"],
+      "github": "",
       "isActive": false
     },
     {
@@ -30,83 +90,13 @@
       "isActive": false
     },
     {
-      "title": "Wine Region Blog",
-      "image": "/sites/region-blog.jpg",
-      "alt": "The homepage for a wine region blog",
-      "link": "https://dev-wines-of-the-south.pantheonsite.io/wines-of-the-south/",
-      "description": "A responsive blog site about southern hemisphere wine regions using WordPress.",
-      "category": ["DiWordpress"],
-      "github": "",
-      "isActive": false
-    },
-    {
-      "title": "My Favorite Cities of the World",
-      "image": "/sites/cities.jpg",
-      "alt": "The homepage for my favorite cities blog",
-      "link": "https://bridgemami.github.io/CS50C_JSON-GOOGLEMAPS/",
-      "description": "My favorite cities I have visited using HTML, JavaScript, JSON, and Google Maps' API.",
-      "category": ["DiHtml5", "DiCss3", "IoLogoJavascript", "VscJson"],
-      "github": "https://github.com/bridgemami/cs50c_google_map",
-      "isActive": false
-    },
-      {
-      "title": "Green Dragon Pub Ordering Site",
-      "image": "/sites/green_dragon_pub.jpg",
-      "alt": "Green Dragon Pub Ordering App",
-      "link": "https://greendragonpubapp.netlify.app/",
-      "description": "An restaurant ordering site with ordering menu and cart.",
-      "category": ["DiHtml5", "DiCss3", "IoLogoJavascript"],
-      "github": "https://github.com/bridgemami/restaurant_order_form",
-      "isActive": false
-    },
-    {
-      "title": "Ron Swanson Eight Ball",
-      "image": "/sites/ron.jpg",
-      "alt": "The homepage for Ron Swanson Eight Ball",
-      "link": "https://bridgemami.github.io/eight-ball/",
-      "description": "An eight-ball-esque site using a Ron Swanson quote API to tell your future.",
-      "category": ["DiHtml5", "DiCss3", "IoLogoJavascript", "SiOpenapiinitiative"],
-      "github": "https://github.com/bridgemami/eight-ball",
-      "isActive": false
-    },
-    {
-      "title": "Travel Journal",
-      "image": "/sites/travel_journal.jpg",
-      "alt": "The homepage for my travel journal",
-      "link": "https://travel-scrimba.netlify.app/",
-      "description": "My single page application travel journal created with React.",
-      "category": ["DiHtml5", "DiCss3", "IoLogoJavascript", "VscJson", "DiReact" ],
-      "github": "https://github.com/bridgemami/travel-journal-scrimba",
-      "isActive": true
-    },
-    {
-      "title": "Star Wars Character List",
-      "image": "/sites/charList.jpg",
-      "alt": "The homepage for Star Wars Charter List",
-      "link": "https://module5-phi.vercel.app/",
-      "description": "Star Wars character list using Next.js and deployed on Vercel.",
-      "category": ["DiHtml5", "DiCss3", "IoLogoJavascript", "VscJson", "DiReact", "SiNextdotjs"],
-      "github": "https://github.com/bridgemami/module5",
-      "isActive": false
-    },
-    {
-      "title": "Todo List",
-      "image": "/sites/todo.jpg",
-      "alt": "The homepage for todo list site",
-      "link": "https://next-firebase-todo-lime.vercel.app/",
-      "description": "Todo site created with React, Next.js, Firebase and deployed on Vercel.",
-      "category": ["DiHtml5", "DiCss3", "IoLogoJavascript", "VscJson", "DiReact", "SiNextdotjs", "SiFirebase"],
-      "github": "https://github.com/bridgemami/next-firebase-todo",
-      "isActive": false
-    },
-    {
-      "title": "Database",
-      "image": "/sites/database.jpg",
-      "alt": "Headless Database",
-      "link": "https://week-14-headless-cms-powered-app.vercel.app/",
-      "description": "Headless CMS database",
-      "category": ["DiWordpress"],
-      "github": "https://github.com/bridgemami/week_14_ec_app",
+      "title": "Grape Varietals Blog",
+      "image": "/sites/grape-blog.jpg",
+      "alt": "The homepage for a grape varietals blog",
+      "link": "https://bridgemami.github.io/lets-talk-about-grapes/",
+      "description": "A responsive blog site about grape varietals using HTML and CSS.",
+      "category": ["DiHtml5","DiCss3"],
+      "github": "https://github.com/bridgemami/lets-talk-about-grapes",
       "isActive": false
     }
   ]
