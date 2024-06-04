@@ -35,7 +35,7 @@
       "alt": "Headless Database",
       "link": "https://week-14-headless-cms-powered-app.vercel.app/",
       "description": "Headless CMS database",
-      "category": ["DiWordpress"],
+      "category": ["DiWordpress", "FaBootstrap", "IoLogoJavascript", "DiReact", "SiNextdotjs"],
       "github": "https://github.com/bridgemami/week_14_ec_app",
       "isActive": false
     },
