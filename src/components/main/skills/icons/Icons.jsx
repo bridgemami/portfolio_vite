@@ -6,7 +6,7 @@ import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaBootstrap } from "react-icons/fa6"
 import { FaUniversalAccess } from "react-icons/fa";
-import { SiOpenapiinitiative, SiNextdotjs, SiFirebase } from "react-icons/si";
+import { SiOpenapiinitiative, SiNextdotjs, SiFirebase, SiTypescript, SiTailwindcss } from "react-icons/si";
 import 'animate.css';
 import s from './icons.module.css'
 
@@ -18,6 +18,8 @@ export default function Icons () {
         title: "CSS3"},
         {icon: <IoLogoJavascript />,
         title:"javascript + ES6"},
+        {icon: <SiTypescript />,
+          title: "typescript"},
         {icon:<DiSass />,
         title: "SASS"},
         {icon:<VscJson />,
@@ -26,6 +28,8 @@ export default function Icons () {
         title: "OPEN APIS"},
         {icon: <FaBootstrap />,
         title:"bootstrap 5"},
+        {icon: <SiTailwindcss />,
+         title: "tailwind css"},
         {icon: <DiReact />,
         title:"react"},
         {icon: <SiNextdotjs />,
