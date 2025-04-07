@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Nav from "../../../../node_modules/react-bootstrap/Nav";
 import { FaFileDownload } from "react-icons/fa";
-import resume from "/Michael_Bridgeman_Resume_6_24.pdf";
+import resume from "/Michael_Bridgeman_Resume_2_25.pdf";
 import s from "./links.module.css";
 import { nanoid } from "nanoid";
 
